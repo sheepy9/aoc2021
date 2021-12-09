@@ -5,6 +5,8 @@ package aoc2021
 
 import Day1.Day1
 import Day2.Day2
+import Day3.Day3
+import Day4.Day4
 import java.io.File
 import SolutionInterface.SolutionIf
 
@@ -19,4 +21,12 @@ fun main()
     val day2Solution : Day2 = Day2();
     println("Day 2 first solution: " + day2Solution.solveFirst());
     println("Day 2 second solution: " + day2Solution.solveSecond());
+
+    val day3Solution : Day3 = Day3();
+    println("Day 3 first solution: " + day3Solution.solveFirst());
+    println("Day 3 second solution: " + day3Solution.solveSecond());
+
+    val day4Solution : Day4 = Day4();
+    println("Day 4 first solution: " + day4Solution.solveFirst());
+    println("Day 4 second solution: " + day4Solution.solveSecond());
 }
