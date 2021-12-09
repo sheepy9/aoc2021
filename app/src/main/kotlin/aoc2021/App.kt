@@ -7,6 +7,7 @@ import Day1.Day1
 import Day2.Day2
 import Day3.Day3
 import Day4.Day4
+import Day5.Day5
 import java.io.File
 import SolutionInterface.SolutionIf
 
@@ -29,4 +30,8 @@ fun main()
     val day4Solution : Day4 = Day4();
     println("Day 4 first solution: " + day4Solution.solveFirst());
     println("Day 4 second solution: " + day4Solution.solveSecond());
+
+    val day5Solution : Day5 = Day5();
+    println("Day 5 first solution: " + day5Solution.solveFirst());
+    println("Day 5 second solution: " + day5Solution.solveSecond());
 }
